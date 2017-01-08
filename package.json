@@ -9,6 +9,7 @@
   "scripts": {
     "lint": "eslint . --ext js,html; exit 0;",
     "test": "npm run lint && polymer test",
-    "devserver": "polymer serve --open"
+    "devserver": "polymer serve --open",
+    "build": "polymer build"
   }
 }
